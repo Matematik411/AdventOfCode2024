@@ -22,7 +22,7 @@ def sol(data):
         # part 1
         p1 += abs(leftS[i] - rightS[i])
         # part 2
-        p2 += left[i] * len([x for x in right if x == left[i]])
+        p2 += left[i] * right.count(left[i])
 
     return p1, p2
 

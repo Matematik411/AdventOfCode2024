@@ -5,9 +5,13 @@ from utils.helpers import *
 def sol1(data):
     pass
 
+    return 1
+
 
 def sol2(data):
     pass
+
+    return 2
 
 
 if __name__ == "__main__":
@@ -18,7 +22,9 @@ if __name__ == "__main__":
     print(file)
 
     # part1
-    sol1(file)
+    s1 = sol1(file)
 
     # part2
-    sol2(file)
+    s2 = sol2(file)
+    print(f"Part one: {s1}")
+    print(f"Part two: {s2}")
