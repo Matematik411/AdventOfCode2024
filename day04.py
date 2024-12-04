@@ -4,7 +4,6 @@ from utils.helpers import *
 
 def count_hor(data):
     result = 0
-    # horizontal
     data_hor = [[x for x in r] for r in data]
 
     for i in range(len(data_hor)):
